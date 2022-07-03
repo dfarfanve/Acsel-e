@@ -1,0 +1,11 @@
+select * from interseguro.openitem
+where operationpk = 202953253;
+
+select * from interseguro.agregatedriskunit
+where agregatedriskunitid = 90112314;
+
+select * from interseguro.riskunitdco
+where operationpk = 202953253;
+
+update interseguro.riskunitdco set finishdate = TO_DATE('28/02/2020', 'DD/MM/YYYY') --29/02/2020
+where operationpk = 202953253;
