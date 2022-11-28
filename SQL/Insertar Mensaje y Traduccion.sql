@@ -1,0 +1,2 @@
+INSERT INTO APP_VIDA_GU.CDTR_MESSAGETRANSLATION (MST_CATEGORY,MST_KEY,MST_VALUE,MST_LOCALE) values ('FrontEndMessagesBundle','cancelOI.policyLabel','Policy','(d)');
+COMMIT;
