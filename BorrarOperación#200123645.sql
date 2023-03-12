@@ -102,7 +102,6 @@ begin
         V_newoperationpk := null;
         V_newtimestamp := null;
     end;
-    
     begin
         select ctx.item, CTX.STATUS into v_policyid, v_status from contextoperation ctx where ctx.id = p_operationpktodel;
     exception when no_data_found then
