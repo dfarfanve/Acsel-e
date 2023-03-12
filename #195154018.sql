@@ -1,7 +1,7 @@
 declare 
     V_newoperationpk            number(19);
     V_newtimestamp              date;
-    p_operationpktodel          number(19):= 186432824;
+    p_operationpktodel          number(19):= 195154018;
     v_numrows                   number(19);
     v_policyid                  number(19);
     v_template                  varchar2(250);
