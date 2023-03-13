@@ -1,0 +1,5 @@
+update AZTECA_V138.claimnormalreserve 
+set cnr_maxpaymentamount = 1604.20
+where claimnormalreservedid=442733;
+COMMIT;
+/
